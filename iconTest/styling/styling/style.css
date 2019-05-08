@@ -1,0 +1,18 @@
+i:hover {
+    transition: 0.3s ease-in-out;
+    color: white !important;
+    background-color: black;
+}
+/* medium+screen size */
+@media(min-width:992px) {
+    .desktop-only{
+        display:inline-block !important;
+        color: blue;
+    }
+}
+@media(max-width:991px) {
+    .desktop-only{
+        display: none;
+        color: red;
+    }
+}
